@@ -1,0 +1,32 @@
+
+
+.logo {
+  height: 6em;
+  padding: 2 rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+
+.container-principal{
+  text-align: center;
+  color: black;
+  margin-top: 1.5rem;
+}
+
+.container-secundario{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+img{
+  width: 300px;
+
+}
+
+i{
+  color: white;
+  font-size: 2rem;
+}
+
