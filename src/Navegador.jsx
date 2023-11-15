@@ -1,5 +1,4 @@
 import { Container, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 
@@ -18,6 +17,7 @@ const Navigation = () => {
                         to="/"
                     >
                         Home
+                        {" - "}
                     </NavLink>
                     <NavLink className={setActiveClass}
                         to="/pokemon"
